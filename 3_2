@@ -1,0 +1,8 @@
+/*3_2.資料也有家-加上一些形容詞(15.0)*/
+#include <stdio.h>
+int main(){
+    int a;
+    a=3;
+    printf("There are %d cats.\n," ,a);
+	return 0;
+}
