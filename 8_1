@@ -1,0 +1,11 @@
+/*8_1.if的妙用-比大小(30.0)*/
+#include <stdio.h>
+int main(){
+    int a,b,max;
+    scanf("%d %d",&a,&b);
+    max=a;
+    if(b>max)
+        max=b;
+    printf("最大值%d",max);
+	return 0;
+}
