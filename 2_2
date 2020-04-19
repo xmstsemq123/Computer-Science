@@ -1,0 +1,11 @@
+/*2_2.讓螢幕會做秀-印三角形(10.0)*/
+#include <stdio.h>
+int main(){
+     printf(  "*\n" );
+     printf(  "**\n" );
+     printf(  "***\n" );
+     printf(  "****\n" );
+     printf(  "*****\n" );
+     printf(  "******\n" );
+	return 0;
+}
