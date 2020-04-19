@@ -1,0 +1,6 @@
+/*2_1.讓螢幕會做秀-SayHello(10.0)*/
+#include <stdio.h>
+int main(){
+     printf(  "Hello, World!\n" );
+	return 0;
+}
