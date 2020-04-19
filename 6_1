@@ -1,0 +1,10 @@
+/*6_1.加減乘除取餘數-四則運算(10.0)*/
+#include <stdio.h>
+int main(){
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("%d+%d=%d\n",a,b,a+b);
+    printf("%d-%d=%d\n",a,b,a-b);
+    printf("%d*%d=%d\n",a,b,a*b);
+    printf("%d/%d=%d餘%d\n",a,b,a/b,a%b);
+}
