@@ -1,0 +1,9 @@
+/*7_2.只選我要的-選偶數(25.0)*/
+#include <stdio.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+    if(a%2==0)
+        printf("%d是偶數",a);
+	return 0;
+}
