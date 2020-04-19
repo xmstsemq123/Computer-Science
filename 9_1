@@ -1,0 +1,11 @@
+/*9_1.else魔法-奇數還是偶數?(15.0)*/
+#include <stdio.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+    if(a%2==0)
+        printf("%d是偶數",a);
+    else
+        printf("%d是奇數",a);
+	return 0;
+}
