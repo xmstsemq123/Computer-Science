@@ -1,0 +1,8 @@
+/*6_2.加減乘除取餘數-梯形面積(10.0)*/
+#include <stdio.h>
+int main(){
+    float a,b,c;
+    scanf("%f %f %f",&a,&b,&c);
+    printf("梯形面積=%.1f平方公分",(a+b)*c/2);
+	return 0;
+}
