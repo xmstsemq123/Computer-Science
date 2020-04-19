@@ -1,0 +1,6 @@
+/*1_1. 測試系統-Hello, DICE(100.0)*/
+#include <stdio.h>
+int main(){
+     printf("Hello, DICE!\n");
+	return 0;
+}
