@@ -1,0 +1,8 @@
+/*3_1.資料也有家-印出指定的整數(15.0)*/
+#include <stdio.h>
+int main(){
+    int a;
+    a=3;
+    printf("%d\n," ,a);
+	return 0;
+}
