@@ -1,0 +1,8 @@
+/*5_5.給什麼印什麼-3個浮點數(15.0)*/
+#include <stdio.h>
+int main(){
+    float a,b,c;
+    scanf("%f %f %f",&a,&b,&c);
+    printf("%.1f \n %.2f \n %.3f \n",a,b,c);
+	return 0;
+}
