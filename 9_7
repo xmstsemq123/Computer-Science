@@ -1,0 +1,16 @@
+/*9_7.else魔法-是否為迴文?(20.0)*/
+#include <stdio.h>
+int main(){
+    int a,b,c,d,e,f;
+    scanf("%d",&f);
+    a=f/10000;
+    b=f/1000%10;
+    c=f/100%10;
+    d=f/10%10;
+    e=f%10;
+    if(e*10000+d*1000+c*100+b*10+a==f)
+        printf("%d是迴文",f);
+    else
+        printf("%d不是迴文",f);
+	return 0;
+}
