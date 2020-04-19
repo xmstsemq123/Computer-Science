@@ -1,0 +1,8 @@
+/*5_4.給什麼印什麼-浮點數(15.0)*/
+#include <stdio.h>
+int main(){
+    float a;
+    scanf("%f",&a);
+    printf("%f\n",a);
+	return 0;
+}
