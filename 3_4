@@ -1,0 +1,10 @@
+/*3_4.資料也有家-印出指定的浮點數(15.0)*/
+#include <stdio.h>
+int main(){
+    float num1,num2;
+    num1=10.100000;
+    num2=5.200000;
+    printf( "num1=%f\n" ,num1);
+    printf( "num2=%f\n" ,num2);
+	return 0;
+}
