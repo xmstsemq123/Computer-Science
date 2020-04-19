@@ -1,0 +1,9 @@
+/*4_2.用電腦玩加法-=不是等號(25.0)*/
+#include <stdio.h>
+int main(){
+    int a;
+    a=3;
+    a=a+10;
+    printf("a變為%d\n", a);
+	return 0;
+}
