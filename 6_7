@@ -1,0 +1,11 @@
+/*6_7.加減乘除取餘數-圓周長與面積(15.0)*/
+#include <stdio.h>
+int main(){
+    int r,single;
+    float pi=3.14;
+    scanf("%d%d",&r,&single);
+    printf("圓周長為%.2f\n",2*pi*r);
+    printf("圓面積為%.2f\n",pi*r*r);
+    printf("扇形面積為%.2f",pi*r*r*single/360);
+	return 0;
+}
