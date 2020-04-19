@@ -1,0 +1,8 @@
+/*5_3.給什麼印什麼-兩整數相加(10.0)*/
+#include <stdio.h>
+int main(){
+    int a,b,c;
+    scanf("%d%d",&a,&b);
+    printf("%d+%d=%d\n",a,b,a+b);
+	return 0;
+}
