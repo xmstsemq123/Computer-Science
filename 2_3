@@ -1,0 +1,11 @@
+/*2_3.讓螢幕會做秀-倒印三角形(20.0)*/
+#include <stdio.h>
+int main(){
+     printf(  "******\n" );
+     printf(  "*****\n" );
+     printf(  "****\n" );
+     printf(  "***\n" );
+     printf(  "**\n" );
+     printf(  "*\n" );
+	return 0;
+}
