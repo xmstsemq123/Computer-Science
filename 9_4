@@ -1,0 +1,11 @@
+/*9_4.else魔法-是否與7相關?(15.0)*/
+#include <stdio.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+    if(a%7==0 or a%10==7)
+        printf("%d符合標準",a);
+    else
+        printf("%d不符合標準",a);
+	return 0;
+}
