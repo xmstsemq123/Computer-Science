@@ -1,0 +1,8 @@
+/*5_1.給什麼印什麼-輸入1個整數(10.0)*/
+#include <stdio.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+    printf("%d\n",a);
+	return 0;
+}
