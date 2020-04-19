@@ -1,0 +1,11 @@
+/*6_6.加減乘除取餘數-年利率(15.0)*/
+#include <stdio.h>
+int main(){
+    float a,b,c,d;
+    int e,f;
+    scanf("%f %f %d",&a,&b,&e);
+    scanf("%f %f %d",&c,&d,&f);
+    printf("%.2f\n",a*b*e/365);
+    printf("%.2f",c*d*f/365);
+	return 0;
+}
