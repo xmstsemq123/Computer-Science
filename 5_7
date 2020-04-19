@@ -1,0 +1,8 @@
+/*5_7.給什麼印什麼-倒序(15.0)*/
+#include <stdio.h>
+int main(){
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("%d %d\n",b,a);
+	return 0;
+}
