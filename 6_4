@@ -1,0 +1,8 @@
+/*6_4.加減乘除取餘數-時間計算(10.0)*/
+#include <stdio.h>
+int main(){
+    int a,b=75;
+    scanf("%d",&a);
+    printf("%d個粽子共需要%d分%d秒",a,a*b/60,a*b%60);
+	return 0;
+}
