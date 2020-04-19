@@ -1,0 +1,8 @@
+/*6_8.加減乘除取餘數-衛星繞地球(15.0)*/
+#include <stdio.h>
+int main(){
+    int x,y;
+    scanf("%d%d",&x,&y);
+    printf("%d圈",(x*60+y)/102);
+	return 0;
+}
