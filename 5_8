@@ -1,0 +1,8 @@
+/*5_8.給什麼印什麼-長方形(20.0)*/
+#include <stdio.h>
+int main(){
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("%d %d %d %d\n",a,b,a,b);
+	return 0;
+}
