@@ -1,0 +1,10 @@
+/*7_3.只選我要的-發現不相等(25.0)*/
+#include <stdio.h>
+int main(){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    if(a!=b){
+        printf("%d!=%d",a,b);
+    }
+	return 0;
+}
