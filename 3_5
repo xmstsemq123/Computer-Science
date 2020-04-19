@@ -1,0 +1,11 @@
+/*3_5.資料也有家-身高與體重(20.0)*/
+#include <stdio.h>
+int main(){
+    int a;
+    float b;
+    a=160;
+    b=55.22;
+    printf("My height is %d CM.\n"  ,a);
+    printf("My weight is %.2f KG.\n"  ,b);
+	return 0;
+}
