@@ -1,0 +1,10 @@
+/*7_1.只選我要的-選正數(25.0)*/
+#include <stdio.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+    if(a>=0){
+        printf("%d是正數",a);
+    }
+	return 0;
+}
