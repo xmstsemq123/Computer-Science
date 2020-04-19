@@ -1,0 +1,8 @@
+/*6_5.加減乘除取餘數-緞帶長度(15.0)*/
+#include <stdio.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+    printf("緞帶原來長%d公尺",a*8);
+	return 0;
+}
