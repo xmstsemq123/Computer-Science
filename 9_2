@@ -1,0 +1,11 @@
+/*9_2.else魔法-是否能構成三角形?(15.0)*/
+#include <stdio.h>
+int main(){
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    if(a+b>c and b+c>a and a+c>b)
+        printf("%d %d %d可以構成三角形",a,b,c);
+    else
+        printf("%d %d %d不可以構成三角形",a,b,c);
+	return 0;
+}
