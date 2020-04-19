@@ -1,0 +1,9 @@
+/*5_6.給什麼印什麼-身高與體重(15.0)*/
+#include <stdio.h>
+int main(){
+    int a;
+    float b;
+    scanf("%d%f",&a,&b);
+    printf("身高%d公分\n體重%.2f公斤\n",a,b);
+	return 0;
+}
