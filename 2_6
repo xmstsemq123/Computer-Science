@@ -1,0 +1,7 @@
+/*2_6.讓螢幕會做秀-身高體重(20.0)*/
+#include <stdio.h>
+int main(){
+     printf(  "Height: 158CM\n" );
+     printf(  "Weight: 55.66KG\n" );
+	return 0;
+}
