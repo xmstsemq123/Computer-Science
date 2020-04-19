@@ -1,0 +1,10 @@
+/*4_4.用電腦玩加法-四捨五入(25.0)*/
+#include <stdio.h>
+int main(){
+    float a,b,c;
+    a=4.210000;
+    b=3.100000;
+    c=a+b;
+    printf("%.2f",c);
+	return 0;
+}
