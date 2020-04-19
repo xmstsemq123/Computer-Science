@@ -1,0 +1,12 @@
+/*3_6.資料也有家-最後來的是主人(20.0)*/
+#include <stdio.h>
+int main(){
+    int a;
+    a=1;
+    a=2;
+    a=3;
+    a=4;
+    a=5;
+    printf("%d\n" ,a);
+	return 0;
+}
