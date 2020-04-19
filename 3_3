@@ -1,0 +1,10 @@
+/*3_3.資料也有家-印出2個指定的整數(15.0)*/
+#include <stdio.h>
+int main(){
+    int a,b;
+    a=3;
+    b=4;
+    printf("%d\n" ,a);
+    printf("%d\n" ,b);
+	return 0;
+}
