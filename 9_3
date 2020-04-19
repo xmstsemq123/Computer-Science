@@ -1,0 +1,11 @@
+/*9_3.else魔法-是否直角三角形?(15.0)*/
+#include <stdio.h>
+int main(){
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    if(a*a+b*b==c*c or a*a+c*c==b*b or b*b+c*c==a*a)
+        printf("直角三角形");
+    else
+        printf("不是直角三角形");
+	return 0;
+}
