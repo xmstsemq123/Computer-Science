@@ -4,7 +4,7 @@ int main(){
     float p=1,pi=3.14;
     while(p>0){
         scanf("%f",&p);
-        float r=((p/(2*pi))*100)/100;
+        float r=p/(2*pi);
         if(p>0)
             printf("半徑%.2f\n面積%.2f\n",r,r*r*pi);
     }
