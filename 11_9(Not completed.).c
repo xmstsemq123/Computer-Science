@@ -1,9 +1,10 @@
 /*11_9.多選一-3N+1-2(10.0)*/
 #include <stdio.h>
 int main(){
-    int n=0,i,j;
+    int i,j;
     scanf("%d %d",&i,&j);
     for(int a=j;a<=i;a++){
+        int n=0;
         j=a;
         while(j!=1){
             n=n+1;
