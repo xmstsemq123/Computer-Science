@@ -4,14 +4,9 @@ int main(){
     int a,b;
     scanf("%d %d",&a,&b);
     while(a!=0 and b!=0){
-        if(a>b){
-            if(a%b==0)
-                printf("%d是%d的倍數\n",a,b);
-        }else{
-            if(b%a==0)
-                printf("%d是%d的倍數\n",b,a);
-        }
-        scanf("%d %d",&a,&b);
+    if(a%b==0)
+        printf("%d是%d的倍數\n",a,b);
+    scanf("%d %d",&a,&b);
     }
 	return 0;
 }
